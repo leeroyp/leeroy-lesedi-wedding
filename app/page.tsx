@@ -110,7 +110,7 @@ export default function LandingPage() {
               required
             />
             <p className="text-sm text-stone-600 mt-3 font-light">
-              Please enter your full name or email address
+              Please enter your full name or email address 
             </p>
           </div>
 
