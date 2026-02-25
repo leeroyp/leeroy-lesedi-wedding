@@ -44,7 +44,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 via-stone-50 to-orange-50 px-4 py-8 relative overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center px-4 py-8 relative overflow-hidden" style={{ backgroundColor: '#c2bab1' }}>
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-orange-400 to-transparent opacity-30" />
       <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-orange-400 to-transparent opacity-30" />
@@ -62,13 +62,13 @@ export default function LandingPage() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="mb-12"
         >
-          <h1 className="text-7xl md:text-8xl lg:text-9xl font-script text-stone-800 mb-4 leading-tight">
+          <h1 className="text-7xl md:text-8xl lg:text-9xl font-pinyon text-stone-800 mb-4 leading-tight">
             Lesedi
           </h1>
           <p className="text-2xl md:text-3xl text-stone-600 font-light tracking-widest my-6">
             &
           </p>
-          <h1 className="text-7xl md:text-8xl lg:text-9xl font-script text-stone-800 mb-8 leading-tight">
+          <h1 className="text-7xl md:text-8xl lg:text-9xl font-pinyon text-stone-800 mb-8 leading-tight">
             Leeroy
           </h1>
         </motion.div>
