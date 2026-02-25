@@ -113,9 +113,7 @@ export default function WeddingHome() {
             <h1 className="text-7xl md:text-8xl lg:text-9xl font-pinyon text-white mb-8 drop-shadow-lg">
               Leeroy & Lesedi
             </h1>
-            <p className="text-5xl md:text-6xl font-pinyon text-white drop-shadow-lg">
-              10 Dec 2026
-            </p>
+           
           </motion.div>
         </div>
       </section>
@@ -460,76 +458,27 @@ export default function WeddingHome() {
             <div className="space-y-8">
               <div>
                 <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Is there a dress code?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed">Both events call for formal attire. Traditional attire is especially welcome at the Botswana ceremony. Please be elegant and avoid white.</p>
+                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">There is no strict dress code; we want you to feel comfortable and confident. Both the blessing ceremony and reception will take place outdoors, so please dress accordingly. December can be extremely hot, but it can also bring rain and cooler moments, so we recommend light, breathable fabrics and bringing a layer just in case.</p>
               </div>
 
               <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Can I bring a plus one?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed">Due to limited capacity, invitations are extended only to the named guests. However, feel free to request one in the RSVP section and we'll let you know if we can accommodate your request.</p>
+                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Can i bring a plus one?</p>
+                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">Because of limited capacity, we&apos;re only inviting the guest(s) listed on your invitation. If you would like to request a plus-one, please indicate it in the RSVP section, and we will do our best to accommodate, space permitting.</p>
               </div>
 
               <div>
                 <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Can I take pictures during the ceremony?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed">We kindly ask for an unplugged ceremony. Please keep phones away during the blessing.</p>
+                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">We kindly ask for an unplugged ceremony. Please keep your phones away during the blessing.</p>
               </div>
 
               <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Do I need to attend both events?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed">Not at all! While we would love to celebrate with you at both, we completely understand if you can only attend one. Please RSVP for whichever event(s) you're able to join.</p>
-              </div>
-
-              <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">What if I have dietary requirements?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed">Please let us know about any dietary requirements or restrictions in the message section of your RSVP, and we'll ensure you're well catered for.</p>
-              </div>
-
-              <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Who can I contact with questions?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed">For any questions, please email us at lesedimeswele@gmail.com or leeroyphili@gmail.com</p>
+                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Where can I book accommodation in Botswana or Zimbabwe?</p>
+                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">For guests travelling from out of town, we&apos;ve put together a detailed guide with recommended accommodation options in Zimbabwe and Botswana, along with restaurant suggestions and a mini travel guide to help you plan your stay. Please click the <a href="#" className="underline font-bold">link</a> below to access the full guide.</p>
               </div>
             </div>
           </motion.div>
         </div>
       </section>
-
-      {/* Dress code Section */}
-      <section id="details" className="py-24 px-4 bg-orange-50">
-        <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-5xl md:text-6xl font-script text-stone-800 mb-4">Dress Code</h2>
-            <p className="text-xl text-stone-600">Everything you need to know</p>
-             <p className="text-xl text-stone-600">Everything you need to know</p>
-              <p className="text-xl text-stone-600">Everything you need to know</p>
-               <p className="text-xl text-stone-600">Everything you need to know</p>
-                <p className="text-xl text-stone-600">Everything you need to know</p>
-                 <p className="text-xl text-stone-600">Everything you need to know</p>
-                  <p className="text-xl text-stone-600">Everything you need to know</p>
-                   <p className="text-xl text-stone-600">Everything you need to know</p>
-          </motion.div>
-        </div>
-      </section>
-      {/* Travel & Accommodation Section */}
-      <section id="travel" className="py-24 px-4 bg-stone-400">
-        <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-5xl md:text-6xl font-script text-white mb-4">travel &amp; accommodation</h2>
-            <p className="text-xl text-stone-200">Planning your journey</p>
-          </motion.div>
-        </div>
-      </section>
-
       {/* RSVP Modal */}
       <AnimatePresence>
         {modalOpen && (
@@ -748,155 +697,6 @@ export default function WeddingHome() {
           </motion.div>
         )}
       </AnimatePresence>
-
-      {/* Registry Section */}
-      <section id="registry" className="py-24 px-4 bg-stone-50">
-        <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-5xl md:text-6xl font-script text-stone-800 mb-4">registry</h2>
-            <p className="text-xl text-stone-600 mb-8">Your presence is the greatest gift</p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="bg-white p-8 rounded-lg shadow-md text-center"
-          >
-            <div className="text-6xl mb-6">🎁</div>
-            <p className="text-lg text-stone-600 leading-relaxed max-w-2xl mx-auto">
-              Your love, laughter, and presence at our celebration is the greatest gift we could ask for. 
-              If you wish to honor us with a gift, a contribution towards our honeymoon adventure would be 
-              deeply appreciated. Details will be provided closer to the date.
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* FAQs Section */}
-      <section id="faqs" className="py-24 px-4 bg-slate-700">
-        <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-5xl md:text-6xl font-script text-white mb-4">faq</h2>
-          </motion.div>
-
-          <div className="space-y-6">
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">Why two separate celebrations?</h3>
-              <p className="text-slate-100">
-                We're blessed to have loved ones in both South Africa and the United Kingdom. To celebrate 
-                with both our families and communities, we've planned two special events so everyone can join 
-                the celebrations without extensive travel.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">Do I need to attend both events?</h3>
-              <p className="text-slate-100">
-                Not at all! While we would love to celebrate with you at both, we completely understand if you 
-                can only attend one. Please RSVP for whichever event(s) you're able to join.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">Is the dress code the same for both events?</h3>
-              <p className="text-slate-100">
-                Both events call for formal attire. Traditional attire is especially welcome at the South African 
-                celebration. Please see the Dress Code section above for specific details.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">Where should I stay?</h3>
-              <p className="text-slate-100">
-                We've provided accommodation recommendations and hotel blocks in the Travel & Accommodation 
-                section above. Feel free to contact us if you need additional suggestions or assistance.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">Can I bring my children?</h3>
-              <p className="text-slate-100">
-                We love your little ones, but we've decided to make both celebrations adults-only affairs. 
-                We hope this allows you to relax and enjoy the evening.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">What if I have dietary requirements?</h3>
-              <p className="text-slate-100">
-                Please let us know about any dietary requirements or restrictions in the message section of your 
-                RSVP, and we'll ensure you're well catered for.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-none border border-white/20"
-            >
-              <h3 className="text-xl font-semibold text-white mb-3">Who can I contact with questions?</h3>
-              <p className="text-slate-100">
-                For any questions or concerns, please email us at{' '}
-                <a href="mailto:lesediandleeroy@wedding.com" className="text-orange-200 hover:text-orange-100 underline">
-                  lesediandleeroy@wedding.com
-                </a>
-              </p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
