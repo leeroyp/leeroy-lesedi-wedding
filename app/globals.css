@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Brooklyn';
+  src: url('/wedding/brooklyn-font/BrooklynFreeRegular-3lagX.ttf') format('truetype'),
+       url('/wedding/brooklyn-font/BrooklynFreeRegular-ZpEYq.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    @apply bg-sand-50 text-navy-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-navy-800 text-white px-6 py-3 rounded-lg hover:bg-navy-700 transition-colors duration-300 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-sand-400 text-navy-900 px-6 py-3 rounded-lg hover:bg-sand-500 transition-colors duration-300 font-medium;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 border border-sand-200;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-sand-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-600 focus:border-transparent transition-all duration-300;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-serif text-navy-900 mb-6 text-center;
+  }
+  
+  .section-subtitle {
+    @apply text-xl md:text-2xl text-navy-700 mb-8 text-center;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+}
