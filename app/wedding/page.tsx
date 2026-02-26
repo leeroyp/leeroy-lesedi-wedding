@@ -453,27 +453,27 @@ export default function WeddingHome() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="font-cormorant text-6xl md:text-7xl text-stone-800 mb-12 text-center">FAQs</h2>
+            <h2 className="font-quattrocento text-6xl md:text-7xl text-stone-800 mb-12 text-center">FAQs</h2>
 
             <div className="space-y-8">
               <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Is there a dress code?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">There is no strict dress code; we want you to feel comfortable and confident. Both the blessing ceremony and reception will take place outdoors, so please dress accordingly. December can be extremely hot, but it can also bring rain and cooler moments, so we recommend light, breathable fabrics and bringing a layer just in case.</p>
+                <p className="font-quattrocento font-bold text-sm text-stone-900 mb-1">Is there a dress code?</p>
+                <p className="font-quattrocento text-sm text-stone-700 leading-relaxed text-justify">There is no strict dress code; we want you to feel comfortable and confident. Both the blessing ceremony and reception will take place outdoors, so please dress accordingly. December can be extremely hot, but it can also bring rain and cooler moments, so we recommend light, breathable fabrics and bringing a layer just in case.</p>
               </div>
 
               <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Can i bring a plus one?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">Because of limited capacity, we&apos;re only inviting the guest(s) listed on your invitation. If you would like to request a plus-one, please indicate it in the RSVP section, and we will do our best to accommodate, space permitting.</p>
+                <p className="font-quattrocento font-bold text-sm text-stone-900 mb-1">Can i bring a plus one?</p>
+                <p className="font-quattrocento text-sm text-stone-700 leading-relaxed text-justify">Because of limited capacity, we&apos;re only inviting the guest(s) listed on your invitation. If you would like to request a plus-one, please indicate it in the RSVP section, and we will do our best to accommodate, space permitting.</p>
               </div>
 
               <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Can I take pictures during the ceremony?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">We kindly ask for an unplugged ceremony. Please keep your phones away during the blessing.</p>
+                <p className="font-quattrocento font-bold text-sm text-stone-900 mb-1">Can I take pictures during the ceremony?</p>
+                <p className="font-quattrocento text-sm text-stone-700 leading-relaxed text-justify">We kindly ask for an unplugged ceremony. Please keep your phones away during the blessing.</p>
               </div>
 
               <div>
-                <p className="font-roboto-mono font-bold text-[11px] text-stone-900 mb-1">Where can I book accommodation in Botswana or Zimbabwe?</p>
-                <p className="font-roboto-mono text-[11px] text-stone-700 leading-relaxed text-justify">For guests travelling from out of town, we&apos;ve put together a detailed guide with recommended accommodation options in Zimbabwe and Botswana, along with restaurant suggestions and a mini travel guide to help you plan your stay. Please click the <a href="#" className="underline font-bold">link</a> below to access the full guide.</p>
+                <p className="font-quattrocento font-bold text-sm text-stone-900 mb-1">Where can I book accommodation in Botswana or Zimbabwe?</p>
+                <p className="font-quattrocento text-sm text-stone-700 leading-relaxed text-justify">For guests travelling from out of town, we&apos;ve put together a detailed guide with recommended accommodation options in Zimbabwe and Botswana, along with restaurant suggestions and a mini travel guide to help you plan your stay. Please click the <a href="#" className="underline font-bold">link</a> below to access the full guide.</p>
               </div>
             </div>
           </motion.div>
