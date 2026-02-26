@@ -34,7 +34,7 @@ export default function LandingPage() {
         // Redirect to wedding site
         router.push('/wedding');
       } else {
-        setError(data.detail || data.error || 'Authentication failed');
+        setError(data.error || 'Authentication failed');
       }
     } catch (err) {
       setError('An error occurred. Please try again.');

@@ -75,7 +75,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Authentication error:', error);
     return NextResponse.json(
-      { error: 'An error occurred during authentication', detail: error instanceof Error ? error.message : String(error) },
+      { error: 'An error occurred during authentication' },
       { status: 500 }
     );
   }
