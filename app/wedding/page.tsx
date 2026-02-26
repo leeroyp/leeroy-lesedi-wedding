@@ -87,7 +87,7 @@ export default function WeddingHome() {
       {/* Background Image for Hero Section */}
       <div className="absolute inset-0 h-screen z-0">
         <Image
-          src="/wedding/gallery/Leeroy_Lesedi.jpeg"
+          src="/wedding/gallery/Leeroy_Lesedi.webp"
           alt="Leeroy and Lesedi"
           fill
           className="object-cover object-[center_40%]"
@@ -163,7 +163,7 @@ export default function WeddingHome() {
           >
             <div className="relative w-64 h-80 md:w-72 md:h-96">
               <Image
-                src="/wedding/gallery/Leeroy_Lesedi_celebrations.jpg"
+                src="/wedding/gallery/Leeroy_Lesedi_celebrations.webp"
                 alt="Leeroy and Lesedi"
                 fill
                 className="object-cover object-top grayscale"
@@ -322,7 +322,7 @@ export default function WeddingHome() {
         {/* Background image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wedding/gallery/countdownbackground.jpg"
+            src="/wedding/gallery/countdownbackground.webp"
             alt="Leeroy and Lesedi"
             fill
             className="object-cover object-center"
