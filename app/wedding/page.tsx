@@ -289,6 +289,16 @@ export default function WeddingHome() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
+                <p className="font-quattrocento text-stone-800 text-xl mb-1">11 am &ndash; &nbsp;Blessing</p>
+                <p className="font-quattrocento text-stone-600 text-sm tracking-wide">An unplugged ceremony blessing our union</p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
                 <p className="font-quattrocento text-stone-800 text-xl mb-1">11:30 am &ndash; Photos &amp; Cocktail Hour</p>
                 <p className="font-quattrocento text-stone-600 text-sm tracking-wide">Light refreshments and time to mingle</p>
               </motion.div>
@@ -297,7 +307,7 @@ export default function WeddingHome() {
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <p className="font-quattrocento text-stone-800 text-xl mb-1">12:30 pm &ndash; Toasts &amp; Speeches</p>
                 <p className="font-quattrocento text-stone-600 text-sm tracking-wide">Celebrating love, family, and friendships</p>
@@ -307,7 +317,7 @@ export default function WeddingHome() {
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.3 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <p className="font-quattrocento text-stone-800 text-xl mb-1">1 pm &ndash; Lunch is served</p>
                 <p className="font-quattrocento text-stone-600 text-sm tracking-wide">Followed by continued celebration</p>
